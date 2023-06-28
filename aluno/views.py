@@ -10,4 +10,4 @@ def cadastro_aluno(request):
     else:
         form = AlunoForm()
     
-    return render(request, ' faltadefinir', {'form': form})
+    return render(request, 'aluno/form.html', {'form': form})
